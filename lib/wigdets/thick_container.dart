@@ -13,10 +13,12 @@ class ThickContainer extends StatelessWidget {
     return Container(
       padding: const EdgeInsets.all(3.0),
       decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(20.0),
-          border: Border.all(
-              width: 2.5,
-              color: isColor == null ? Colors.white : const Color(0xff8accf7))),
+        borderRadius: BorderRadius.circular(20.0),
+        border: Border.all(
+          width: 2.5,
+          color: isColor == null ? Colors.white : const Color(0xff8accf7),
+        ),
+      ),
     );
   }
 }

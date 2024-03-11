@@ -23,7 +23,7 @@ class Styles {
     color: textColor,
     fontWeight: FontWeight.bold,
   );
-  static TextStyle headLineStyle3 = TextStyle(
+  static const TextStyle headLineStyle3 = TextStyle(
     fontSize: 17.0,
     fontWeight: FontWeight.w500,
   );
